@@ -13,6 +13,7 @@
         "manhole",
         "north",
         "pipe",
+        "pole",
         "replicate",
         "south",
         "tower",

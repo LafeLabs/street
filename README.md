@@ -20,12 +20,6 @@ Rules:
 2. [everything evolves](scrolls/evolve)
 3. [everything dies](scrolls/destroy)
 
-Place Archetypes:
-
- - [dumpster](scrolls/dumpster)
- - [deadend](scrolls/deadend)
- - [woods](scrolls/woods)
-
 Influences:
 
  - [Zork/Adventure style text-based games](https://en.wikipedia.org/wiki/Zork)
