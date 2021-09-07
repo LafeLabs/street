@@ -3,6 +3,10 @@
     
 # replicate
 
+ - [dnagenerator.php](dnagenerator.php)
+ - [replicator.php](replicator.php)
+ - [scroll set replicator](scrollset.html)
+
 Replicate [street](https://github.com/LafeLabs/street) by getting a local web server working with PHP and copying and running the replicator script at 
 
 [https://raw.githubusercontent.com/LafeLabs/street/main/php/replicator.txt](https://raw.githubusercontent.com/LafeLabs/street/main/php/replicator.txt)
