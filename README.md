@@ -10,6 +10,50 @@
 
 In Trash Magic we build everything we need for a good life from trash and things we can grow and spread it using self-replicating media.  
 
+The Street Network connects physical streets via the following self-replicating set of media:
+
+
+
+ - Trash Magic Domains
+ - Trash Magic Flags
+ - The Geometron Hypercube
+ - Skeletron
+ - The Trash Magic Hypersigns
+ - Trash Magic Servers
+ - The Magic Dump
+ - Trash Magic E-Books
+ - Trash Magic Fashion
+ - Trash Magic Self-replicatng Web Pages
+ - Geometron
+ - Trash Magic Ontology
+
+
+
+ ## Trash Magic Domains
+ 
+  Domains are selected for public shared spaces along the Street and Watershed networks. We get cheap domain names based on public streets, roads, train stations, bus stops, highways, paths, rivers, creeks, canals, shopping centers, neighborhoods, bays, trails, or communities of people with some shared interest. 
+  
+  Domains are pointed to Trash Magic Servers which host web pages on the Magic Dump. 
+  
+  ### Trash Magic Live(maybe) Domains
+  
+  - [www.sloanslake.art](https://www.sloanslake.art)
+
+ ## Trash Magic Flags
+ ## The Geometron Hypercube
+ ## Skeletron
+ ## The Trash Magic Hypersigns
+ ## Trash Magic Servers
+ ## The Magic Dump
+ ## Trash Magic E-Books
+ ## Trash Magic Fashion
+ ## Trash Magic Self-replicatng Web Pages
+ ## Geometron
+ ## Trash Magic Ontology
+
+
+
+
 ## Replicate Trash Magic Server
 
 Go find a laptop in the trash and install Ubuntu on it.  
