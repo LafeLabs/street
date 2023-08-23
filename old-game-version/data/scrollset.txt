@@ -1,0 +1,14 @@
+{
+    "server": "https://raw.githubusercontent.com/LafeLabs/street/main/",
+    "scrolls": [
+        "deadend",
+        "destroy",
+        "dumpster",
+        "evolve",
+        "home",
+        "manhole",
+        "replicate",
+        "tree",
+        "woods"
+    ]
+}

@@ -29,6 +29,7 @@ EGO DEATH:
 <a href = "dnagenerator.php">dnagenerator.php</a>
 <a href = "text2php.php">text2php.php</a>
 
+
 <?php
     $topfiles = scandir(getcwd());
 
@@ -62,7 +63,27 @@ EGO DEATH:
         if(substr($value,-3) == ".sh"){
             echo "\n<div class = \"sh file\">".$value."</div>\n";
         }
+        if(substr($value,-3) == ".js"){
+            echo "\n<div class = \"javascript file\">".$value."</div>\n";
+        }
+        if(substr($value,-4) == ".css"){
+            echo "\n<div class = \"css file\">".$value."</div>\n";
+        }
+        if(substr($value,-4) == ".txt"){
+            echo "\n<div class = \"txt file\">".$value."</div>\n";
+        }
         
+    }
+
+
+    $phpfiles = scandir(getcwd()."/php");
+
+    foreach($phpfiles as $value){
+        if($value[0] != "."){
+            echo "<div class = \"php file\">php/";
+            echo $value;
+            echo "</div>\n";
+        }
     }
 
     $jsfiles = scandir(getcwd()."/jscode");
@@ -75,12 +96,11 @@ EGO DEATH:
         }
     }
 
+    $cssfiles = scandir(getcwd()."/css");
 
-    $phpfiles = scandir(getcwd()."/php");
-
-    foreach($phpfiles as $value){
+    foreach($cssfiles as $value){
         if($value[0] != "."){
-            echo "<div class = \"php file\">php/";
+            echo "<div class = \"css file\">css/";
             echo $value;
             echo "</div>\n";
         }
@@ -97,16 +117,6 @@ EGO DEATH:
         }
     }
 
-//    $mapfiles = scandir(getcwd()."/maps");
-
- //   foreach($mapfiles as $value){
-  //      if($value[0] != "."){
-//            echo "<div class = \"javascript file\">maps/";
- //           echo $value;
-   //         echo "</div>\n";
-  //      }
- //   }
-
     if(isset($_GET["newfile"])){
         $newfile = $_GET["newfile"];
         if(substr($newfile,-5) == ".html" || substr($newfile,-4) == ".svg"){
@@ -116,6 +126,16 @@ EGO DEATH:
         }
         if(substr($newfile,-3) == ".md"){
             echo "<div class = \"markdown file\">";
+            echo $newfile;
+            echo "</div>\n";
+        }
+        if(substr($newfile,-4) == ".css"){
+            echo "<div class = \"css file\">";
+            echo $newfile;
+            echo "</div>\n";
+        }
+        if(substr($newfile,-4) == ".txt"){
+            echo "<div class = \"txt file\">";
             echo $newfile;
             echo "</div>\n";
         }
@@ -295,6 +315,7 @@ document.getElementById("namediv").style.backgroundColor = "#101010";
 document.getElementById("lightdarkbutton").innerHTML = "LIGHT MODE";        
 editor.setTheme("ace/theme/vibrant_ink");
 document.getElementById("linkscroll").style.backgroundColor = "#101010";
+
 var links = document.getElementById("linkscroll").getElementsByTagName("a");
 for(var index = 0;index < links.length;index++){
     links[index].style.color = "white";
@@ -325,6 +346,9 @@ body{
 }
 .css{
     color:yellow;
+}
+.txt{
+    background-color:#B0916E;
 }
 .php{
     color:#800080;
