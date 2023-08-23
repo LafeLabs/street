@@ -2,9 +2,15 @@
     "html": [
         "README.md",
         "domains.html",
+        "dump.html",
+        "ebooks.html",
+        "fashion.html",
+        "flags.html",
         "fork.html",
+        "geometron.html",
         "geometron.js",
         "hypercube.html",
+        "hypersign.html",
         "index-board1.txt",
         "index.html",
         "ontology.html",
@@ -13,12 +19,15 @@
         "scroll-deleter.html",
         "scroll-list.txt",
         "scrollset.html",
+        "servers.html",
+        "skeletron.html",
         "trashmagic.css",
         "trashmagic.js",
         "trashrobot-board1.txt",
         "trashrobot.html",
         "webdestroyer.html",
-        "webeditor.html"
+        "webeditor.html",
+        "webpages.html"
     ],
     "data": [
         "dna.txt",

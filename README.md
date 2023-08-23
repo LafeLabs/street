@@ -13,7 +13,6 @@ In Trash Magic we build everything we need for a good life from trash and things
 The Street Network connects physical streets via the following self-replicating set of media:
 
 
-
  - Trash Magic Domains
  - Trash Magic Flags
  - The Geometron Hypercube
